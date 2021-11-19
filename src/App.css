@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.padding-10{
+  padding: 10px;
+}
+
+/* ------------- Tabsh Style 1 -------------- */
+#trinity{padding-top: 50px;padding-bottom: 50px;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part{width: 25%;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs{padding:0;width: 110px;border-radius: 5px 0 0 5px;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item{width: 100%;height: 110px;text-align: center;display: table;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link{background-color: #455a64;margin:0;border-radius: 0;display: table-cell;position: relative;padding:0;vertical-align: middle;border:0;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link:after{content: "";display: block;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 10px solid#455a64;position: absolute;left: 100%;top: 50%;transform: translateY(-50%);}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link span{color: #fff;font-size: 25px;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs .nav-item .nav-link p{color: #fff;font-size: 12px;text-transform: uppercase;font-weight: 700;margin:10px 0 0;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active{background-color: #f96332;}
+#trinity .trinity_tabs_part .trinity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active:after{border-left-color:#f96332;}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part{width: 75%;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content{padding-top: 10px;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_head .title{font-size: 30px;color: #000;position: relative;font-weight: 400;margin-bottom: 50px;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_head .title:after{content: "";display: block;width: 65px;height: 2px;background-color: #f96332;position: absolute;bottom: -25px;left: 0;}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_description p{font-size: 16px;margin-bottom: 10px;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_description p:last-child{margin-bottom: 0;}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_btn{margin-top: 30px;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_btn a{color: #fff;background-color: #f96332;text-transform: uppercase;border-radius: 50px;font-size: 14px;font-weight: 700;padding: 12px 42px;display: inline-block;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_btn a:hover{text-decoration: none;}
+
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_img figure{width: 80%;height: 280px;margin:0 auto;text-align: center;}
+#trinity .trinity_tabs_part .trinity_tabs_right_part .trinity_tab_content .trinity_tab_content_img figure img{max-width: 100%;max-height: 100%;}
+/* ------------- / Tabsh Style 1 -------------- */
+
+/* ------------ Tabsh Style 2 ------------- */
+#animateTabs{padding-top: 50px;padding-bottom: 50px;background-color: #fff;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs{margin-bottom: 20px;padding: 0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li.current i{background-color: #f96332;color: #fff;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li.current p{color: #f96332;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li{width: 20%;text-align: center;list-style: none;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a:hover i{background-color: #f96332;color: #fff;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a:hover p{color: #f96332;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a{display: inline-block;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a:hover{text-decoration: none;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li p{font-size: 18px;font-weight: 600;color: #000;margin:0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li i{width: 60px;height: 60px;display: block;margin:0 auto 15px;text-align: center;line-height: 60px;background-color: #ffe9da;color: #FF8A73;font-size: 25px;border-radius: 50px;transition: 0.5s all;}
+
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content h3{font-size: 23px;font-weight: 600;margin:0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content p{font-size: 16px;color: #818992;line-height: 1.6;margin:15px 0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul{padding:0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li{list-style: none;color: #818992;font-size: 16px;margin-bottom: 10px;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li:last-child{margin-bottom: 0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li i{font-size: 14px;color: #f96332;margin-right: 3px;}
+
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_img img{max-width: 100%;max-height: 100%;}
+/* ------------ / Tabsh Style 2 ------------- */
+
+/* ------------ Tabsh Style 3 -------------- */
+#slanted{padding-top: 50px;padding-bottom: 50px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs{border-bottom: 0;padding:0 25px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link{border:0;position: relative;padding:20px 10px;color: #fff;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link span{font-size: 25px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link p{margin:0 0 0 10px;font-size: 18px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link:after{position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    content: "";
+    box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 3px inset;
+    transform: perspective(5px) rotateX(0.89deg) translateZ(-1px);
+    transform-origin: 0px 0px;border-radius: 10px 10px 0px 0px;
+    background: #f96332;
+}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-item{margin:0;flex:1;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-item.show .nav-link,.slanted_tabs_part .nav-tabs .nav-link.active{background-color: transparent;border:0;color: #f96332 !important;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-item.show .nav-link,.slanted_tabs_part .nav-tabs .nav-link.active:after{background-color: #fff !important;box-shadow: none !important;}
+
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content{background-color: #fff;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content{padding: 50px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content .slantedImg figure{}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content .slantedContent .slanted-header .slanted-title{font-size: 30px;color: #000;position: relative;font-weight: 400;margin-bottom: 50px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content .slantedContent .slanted-header .slanted-title:after{content: "";display: block;width: 65px;height: 2px;background-color: #f96332;position: absolute;bottom: -25px;left: 0;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content p{margin:0;font-size: 16px;color: #222222;}
+/* ------------ / Tabsh Style 3 ------------ */
