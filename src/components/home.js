@@ -67,7 +67,7 @@ class Home extends Component {
                                 </div>
                                 <div class="slanted-body">
                                   <div class="slanted-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p> nulla pariatur.</p>
                                     <div className="Row">
       <div className="col-lg-12 col-md-8 col-sm-6 col-xs-12">
       <div className="card">
@@ -76,7 +76,7 @@ class Home extends Component {
           </div>
           <div className="card-body">
             <h5 className="card-title">Special title treatment</h5>
-            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <p className="card-text"> additional content.</p>
             <a href="#" className="btn btn-primary">Go somewhere</a><a href="#" className="btn btn-default">cancel</a>
           </div>
         </div>
@@ -101,7 +101,7 @@ class Home extends Component {
                                 </div>
                                 <div class="slanted-body">
                                   <div class="slanted-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p>ure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                   </div>
                                 </div>
                               </div>
@@ -153,7 +153,7 @@ class Home extends Component {
                                 </div>
                                 <div class="slanted-body">
                                   <div class="slanted-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p> dolore eu fugiat nulla pariatur.</p>
                                   </div>
                                 </div>
                               </div>
@@ -203,7 +203,7 @@ class Home extends Component {
             <div className="container">
               <div className="trinity_tabs_part">
                 <div className="tabs_title">
-                  <h2 className="title">Billable Insight</h2>
+                  <h2 className="title">Challenge Buddy</h2>
                   <div className="bar"></div>
                   </div>
                 <div className="d-flex flex-wrap align-items-center">
@@ -240,12 +240,7 @@ class Home extends Component {
                                   <h2 className="title">Lorem ipsum dolor</h2>
                                 </div>
                                 <div className="trinity_tab_content_description">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <p>Lorem ipsum.</p>
                                 </div>
                                 <div className="trinity_tab_content_btn">
                                   <a href="#">Get Started</a>
@@ -264,7 +259,14 @@ class Home extends Component {
                           <div className="d-flex flex-wrap">
                             <div className="col-md-8">
                               <div className="trinity_tab_content_head">
-                                  <h2 className="title">Lorem ipsum dolor sit</h2>
+                                  <h2 className="title">Project  List</h2>
+                                   <ul>
+                                    <li>TO DO</li>
+                                  </ul>
+                         
+                                <iframe class="airtable-embed" src="https://totalcontest-demo.totalsuite.net/?post_type=contest&p=200&embed=1?backgroundColor=cyan&viewControls=on"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"150%", height:"633px"}}></iframe> 
+                               
+                               
                                 </div>
                                 <div className="trinity_tab_content_description">
                                
@@ -286,15 +288,10 @@ class Home extends Component {
                           <div className="d-flex flex-wrap">
                             <div className="col-md-8">
                               <div className="trinity_tab_content_head">
-                                  <h2 className="title">Lorem ipsum dolor sit amet</h2>
+                                  <h2 className="title">Project</h2>
                                 </div>
                                 <div className="trinity_tab_content_description">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                  <p>Project  overrun </p>
                                 </div>
                                 <div className="trinity_tab_content_btn">
                                   <a href="#">Get Started</a>
@@ -322,7 +319,7 @@ class Home extends Component {
    renderNavbar = () => {
       return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Construction monitoring</a>
+        <a className="navbar-brand" href="#">Challenge monitoring</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -333,7 +330,7 @@ class Home extends Component {
               <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/register">Register <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/register">Join Video conference call <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="/login">Login <span className="sr-only">(current)</span></a>
