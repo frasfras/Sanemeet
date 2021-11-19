@@ -16,7 +16,7 @@ class Navbar extends Component  {
                 <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="/register">Register <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/register">Join Video conference <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item active">
                 <a className="nav-link" href="/login">Login <span className="sr-only">(current)</span></a>
