@@ -368,7 +368,7 @@ function App ()  {
                           <Participant />
                         </Route>
                         <Route path="/projects">
-                          <Projects />
+                          <Home />
                         </Route>
                         <Route path="/">
                           <Home />
