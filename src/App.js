@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React  from 'react';
 import logo from './logo.svg';
 import {
   BrowserRouter as Router,
@@ -29,12 +29,12 @@ import StudentView from './views/StudentView';
 import { useKillZombies } from './useKillZombies';
 
 import './App.css';
-import Card from "./components/card/card";
+
 import Home from "./components/home/home";
 import Register from "./register/register";
 import Login from  "./register/login";
 import Participant from "./components/participants";
-import Projects from "./components/projects";
+
 
 function App ()  {
 
@@ -205,13 +205,13 @@ function App ()  {
     [participantList, classRoom, cell, teacherId]
   );
 
-  // useKillZombies({
-  //   cell,
-  //   teacherId,
-  //   setTeacherId,
-  //   classRoom,
-  //   setUserIdInSeat,
-  // });
+   useKillZombies({
+     cell,
+     teacherId,
+     setTeacherId,
+     classRoom,
+     setUserIdInSeat,
+   });
 
   const handleExitMessageRecieved = useCallback(() => {
     if (teacherId !== selfId) {
