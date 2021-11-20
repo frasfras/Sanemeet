@@ -78,8 +78,6 @@ export default class MainComponent extends Component {
    }
   render() {
   
-
-    const currentUsers = this.state.records;
  
     return (
 
@@ -129,13 +127,4 @@ export default class MainComponent extends Component {
     );
   }
 }
-const participant = ({id,  Name,  region,email, photo,sex }) => (
-    <tr key = {id}>
-    
-      <td>{ Name }</td>
-      <td>{region}<a href='#'>link</a></td>
-      <td>{email}</td>
-    </tr>
-  
-);
 
