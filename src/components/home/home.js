@@ -291,10 +291,10 @@ class Home extends Component {
                           <div className="d-flex flex-wrap">
                             <div className="col-md-8">
                               <div className="trinity_tab_content_head">
-                                  <h2 className="title">Project </h2>
+                                  <h2 className="title">Placeholder </h2>
                                 </div>
                                 <div className="trinity_tab_content_description">
-                                  <p>Project cost overrun/underrun in ratio</p>
+                                  <p> </p>
                                 </div>
                                 <div className="trinity_tab_content_btn">
                                   <a href="#">Get Started</a>
