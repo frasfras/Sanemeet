@@ -155,7 +155,7 @@ class Home extends Component {
                                 </div>
                                 <div class="slanted-body">
                                   <div class="slanted-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p> dolore eu fugiat nulla pariatur.</p>
                                   </div>
                                 </div>
                               </div>
@@ -271,6 +271,9 @@ class Home extends Component {
                                     <li>TO DO</li>
                                   </ul>
                                 </div>
+                  <iframe class="airtable-embed" src="https://airtable.com/embed/shrhi25wQJncDfQ8X?post_type=contest&p=200&embed=1?backgroundColor=cyan&viewControls=on"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"150%", height:"633px"}}></iframe> 
+
+                          
                                 <div className="trinity_tab_content_description">
                                
                                 </div>
@@ -363,7 +366,7 @@ class Home extends Component {
           
           {/* <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Select project
+                Select 
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Mimosa</a>
