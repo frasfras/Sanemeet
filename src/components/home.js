@@ -101,7 +101,7 @@ class Home extends Component {
                                 </div>
                                 <div class="slanted-body">
                                   <div class="slanted-desc">
-                                    <p>ure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p>.</p>
                                   </div>
                                 </div>
                               </div>
@@ -288,10 +288,10 @@ class Home extends Component {
                           <div className="d-flex flex-wrap">
                             <div className="col-md-8">
                               <div className="trinity_tab_content_head">
-                                  <h2 className="title">Project</h2>
+                                  <h2 className="title">Placeholder</h2>
                                 </div>
                                 <div className="trinity_tab_content_description">
-                                  <p>Project  overrun </p>
+                                  <p>Terms   </p>
                                 </div>
                                 <div className="trinity_tab_content_btn">
                                   <a href="#">Get Started</a>
