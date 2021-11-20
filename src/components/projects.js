@@ -1,14 +1,6 @@
-import React, {useEffect,useState, Component } from 'react';
+import React, { Component } from 'react';
 import Airtable from 'airtable';
 
-
-/* import UserCard from 'components/UserCard';
-import AddUserCard from 'components/AddUserCard';
-import _ from 'lodash';
-import GenderSortDropdown from 'components/GenderSortDropdown';
-import SearchUserInput from 'components/SearchUserInput'; */
- 
-// import UserCardList from 'components/UserCardList';
 const base= new Airtable({apiKey:"keyjVpG4zXCD49VfC" }).base('appOE3EFDFlsHg4X6');
 
 export default class Projects extends Component {
@@ -121,7 +113,7 @@ export default class Projects extends Component {
   renderNavbar = () => {
       return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">Construction monitoring</a>
+        <a className="navbar-brand" href="/">Construction monitoring</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -147,8 +139,7 @@ export default class Projects extends Component {
   render() {
   
 
-    const currentUsers = this.state.records;
-    // console.log(this.state.users.length);
+ 
   /*   const cards = this.state.records.map((record, index) => {
         const {  Name,  region,email, photo,Sex } = this.props.record;
         const flagClassName = `flag-icon flag-icon-${ISO(region)}`;
@@ -233,7 +224,7 @@ const MovCard = ({id,  Name,  notes,Type, status, amount,email }) => (
         </a>
     </p>
     <p className="card-text"><small className="text-muted"> amount | {amount}  </small> </p>
-    <i className = 'fa fa-remove fa-2x float-right hvr-grow' > </i>
+    <i alt='remov' className = 'fa fa-remove fa-2x float-right hvr-grow' > </i>
     </div>
     </div>
 
