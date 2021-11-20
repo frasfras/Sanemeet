@@ -22,6 +22,8 @@ class Register extends Component  {
         case "password":
         this.setState({user:{...user, password:e.target.value}});
         break;
+        default:
+         break;
 
        }
     }
