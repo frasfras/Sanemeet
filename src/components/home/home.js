@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { propTypes } from 'react-bootstrap/esm/Image';
+
 // import Card from "./card";
 
 
