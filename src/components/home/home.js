@@ -280,7 +280,7 @@ class Home extends Component {
                                
                                 </div>
                                 <div className="trinity_tab_content_btn">
-                                  <a href="https://airtable.com/shr22ULKvCQHSqWS4">Get Started</a>
+                                  <a href="https://airtable.com/shrOBxsjr7Idtrtuv">Create challenge </a>
                                 </div>
                             </div>
                             <div className="col-md-4">
