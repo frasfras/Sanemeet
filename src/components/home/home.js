@@ -266,20 +266,30 @@ class Home extends Component {
                           <div className="d-flex flex-wrap">
                             <div className="col-md-8">
                               <div className="trinity_tab_content_head">
-                                  <h2 className="title">Project  List</h2>
+                                  <h2 className="title">Challenges  List</h2>
                                   <ul>
                                     <li>TO DO</li>
                                   </ul>
                                 </div>
-                  <iframe title="add" class="airtable-embed" src="https://airtable.com/embed/shrhi25wQJncDfQ8X?post_type=contest&p=200&embed=1?backgroundColor=cyan&viewControls=on"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"60%", height:"63px"}}></iframe> 
-                  <iframe title="add1" class="airtable-embed" id="ftech-iframe-1794" src="https://ftech.azurewebsites.net/?post_type=contest&p=1794&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
+                                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Video challenge</button>
+              
+                                 <div id="demo" >
+                                  <iframe class="airtable-embed" id="ftech-iframe-1794" src="https://ftech.azurewebsites.net/?post_type=contest&p=1794&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
+                                                                <a href='https://totalcontest-demo.totalsuite.net/contest/test/'></a>
 
+
+                                 </div>   
+                              
                                 <iframe title="add2" class="airtable-embed" id="ftech-iframe-1798" src="https://ftech.azurewebsites.net/?post_type=contest&p=1798&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
                           
                                 <div className="trinity_tab_content_description">
-                               
+                                      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo11">Fitness challenge</button>
                                 </div>
                                 <div className="trinity_tab_content_btn">
+                                       <div id="demo11" class="collapse">
+                                       <iframe class="airtable-embed" id="ftech-iframe-1798" src="https://ftech.azurewebsites.net/?post_type=contest&p=1798&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"833px"}}></iframe>
+
+                                       </div>
                                   <a href="https://airtable.com/shrOBxsjr7Idtrtuv">Create challenge </a>
                                 </div>
                             </div>
