@@ -246,7 +246,7 @@ class Home extends Component {
                                   </p>
                                 </div>
                                 <div className="trinity_tab_content_btn">
-                                  <a href="/persons">Get Started staff</a>
+                                  <a href="/persons">Get Started </a>
                                   ||
                                    <a href="/projects">Join Challenges/ projects </a>
                                    
