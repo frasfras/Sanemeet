@@ -71,22 +71,7 @@ export default function AudioVideoControls({
 
   const mediaSelectors = (
     <div className="media-selectors">
-      <div
-        className="audio-video-controls__button"
-        onClick={handleLinkShareClick}
-      >
-        <LinkIcon
-          width={24}
-          height={24}
-          fill={isLinkCopied ? 'rgba(80, 176, 108, 1)' : 'white'}
-        />
-      </div>
-      <div
-        className="link-copied-tooltip"
-        style={{ opacity: isLinkCopied ? 1 : 0 }}
-      >
-        Location URL Copied to Clipboard
-      </div>
+     
       <div className="audio-video-controls__button" onClick={handleClick}>
         <SettingsIcon
           width={24}
@@ -98,6 +83,31 @@ export default function AudioVideoControls({
       {menu}
     </div>
   );
+
+  const mediaSelectors1 = (
+    <div className="media-selectors1">
+      <div
+        className="audio-video-controls__button"
+        onClick={handleLinkShareClick}
+      >
+        <LinkIcon
+          width={24}
+          height={24}
+          fill={isLinkCopied ? 'rgba(80, 176, 108, 1)' : 'white'}
+        />
+      </div>
+      
+      <div
+        className="link-copied-tooltip"
+        style={{ opacity: isLinkCopied ? 1 : 0 }}
+      >
+        Location URL Copied to Clipboard
+      </div>
+      
+      {clickTarget}
+      {menu}
+    </div>
+  ); 
   const audioButton = !hideMuteButton ? (
     <div
       className={`audio-video-controls__button ${
