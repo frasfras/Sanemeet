@@ -145,6 +145,7 @@ export default function AudioVideoControls({
       {audioButton}
       {videoButton}
       {mediaSelectors}
+      {mediaSelectors1}      
     </div>
   );
 }
