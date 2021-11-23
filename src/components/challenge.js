@@ -113,7 +113,7 @@ export default class Challenge extends Component {
              <t>{record.fields.id}</t>    
              <td>{ record.fields.Name }</td>
              <td>{record.fields.Notes}</td>
-             <td><img src={record.fields.Attachment} /></td>
+             <td><img alt="" src={record.fields.Attachment} /></td>
            </tr>
         ))}
    
