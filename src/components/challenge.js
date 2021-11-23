@@ -90,7 +90,7 @@ export default class Challenge extends Component {
               <div className = 'col-lg-6'></div>
               <h3 className = 'float-right' >
             
-             { this.state.records.length } current { this.state.eventName }  people joined 
+             { this.state.records.length } latest { this.state.eventName }   
              </h3>
           <div className="col">
             <div className="card-deck">
