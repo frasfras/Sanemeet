@@ -33,7 +33,7 @@ import Home from "./components/home/home";
 import Register from "./register/register";
 import Login from  "./register/login";
 import Participant from "./components/participants";
-import Challenge from "./components/challenge";
+
 
 function App ()  {
 
