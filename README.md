@@ -1,3 +1,3 @@
 # Sanemeet
 
-challenge 
+challenges 
