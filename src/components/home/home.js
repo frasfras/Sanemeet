@@ -286,7 +286,7 @@ class Home extends Component {
                                 </div>
                                 <div className="trinity_tab_content_btn">
                                        <div id="demo11" class="collapse">
-                                       <iframe title="add11" class="airtable-embed" id="ftech-iframe-1798" src="https://ftech.azurewebsites.net/?post_type=contest&p=1798&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"833px"}}></iframe>
+                                       <iframe title="add11" class="airtable-embed" id="ftech-iframe-1798" src="https://ftech-13f5c4.ingress-erytho.easywp.com/contest/golf-fitness-challenge/?embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"833px"}}></iframe>
 
                                        </div>
                                   <a href="https://airtable.com/shrOBxsjr7Idtrtuv">Create challenge </a>
