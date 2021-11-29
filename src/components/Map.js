@@ -63,6 +63,7 @@ export default class MainComponent extends Component {
         this.state.records.map(record => {
   
         const point= [record.fields.lat,record.fields.lng];    
+        if((record.fields.lat) > 0 && (record.fields.lng) != null ){
         return (
     <Marker position={point} key={record.fields.id} >
          <Popup>
@@ -74,6 +75,7 @@ export default class MainComponent extends Component {
          </Popup>
      </Marker>
        )
+       }
       })
       }
   </MapContainer>
