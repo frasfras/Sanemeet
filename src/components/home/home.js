@@ -279,8 +279,8 @@ class Home extends Component {
                                  </div>   
                                  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo9"> Video challenge2 </button>
               
-                                 <div id="demo9" >
-                                  <iframe title="add20" class="airtable-embed" id="ftech-iframe-13" src="https://ftech-13f5c4.ingress-erytho.easywp.com/?post_type=contest&p=13&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
+                                 <div id="demo9" class="collapse" >
+                                  <iframe title="add20" class="airtable-embed" id="ftech-13f5c4-iframe-13" src="https://ftech-13f5c4.ingress-erytho.easywp.com/?post_type=contest&p=13&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
                                                              
                                  </div>
                               
