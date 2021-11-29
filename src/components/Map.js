@@ -52,7 +52,7 @@ export default class MainComponent extends Component {
       <div>  <MapContainer 
       center={[this.state.latitude, this.state.longitude]} 
       zoom={this.state.zoom} 
-      style={{ width: '100%', height: '990px', position: 'absolute', top: 140,bottom: 0}}
+      style={{ width: '100%', height: '990px', position: 'absolute', top: 110,bottom: 0}}
    >
    <TileLayer
     //  attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap contributors</a> '       
