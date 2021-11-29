@@ -75,7 +75,21 @@ export default class MainComponent extends Component {
          </Popup>
      </Marker>
        )
-       }
+       }else{
+        const point= [this.state.latitude, this.state.longitude];
+        return (
+          <Marker position={point} key={record.fields.id} >
+               <Popup>
+                  <span>name :{record.fields.Name} </span><br/>
+                  <span>challenge :{record.fields.event} </span><br/>
+                  <span>email:{record.fields.email} </span>
+                
+                <br/>
+                
+               </Popup>
+           </Marker>
+        )
+      }
       })
       }
   </MapContainer>
