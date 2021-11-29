@@ -67,6 +67,7 @@ export default class MainComponent extends Component {
     <Marker position={point} key={record.fields.id} >
          <Popup>
             <span>name :{record.fields.Name} </span><br/>
+            <span>challenge :{record.fields.event} </span><br/>
             <span>email:{record.fields.email} </span>
           <br/>
           
