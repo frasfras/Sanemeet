@@ -309,7 +309,7 @@ class Home extends Component {
                                   <p> </p>
                                 </div>
                                 <div className="trinity_tab_content_btn">
-                                  <a href="/">Get Started</a>
+                                  <a href="/locations">Geo Locations</a>
                                 </div>
                             </div>
                             <div className="col-md-4">
