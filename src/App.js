@@ -33,7 +33,7 @@ import Home from "./components/home/home";
 import Register from "./register/register";
 import Login from  "./register/login";
 import Participant from "./components/participants";
-
+import Locations from "./components/locations";
 
 function App ()  {
 
@@ -368,6 +368,9 @@ function App ()  {
                         </Route>
                         <Route path="/projects">
                           <Home />
+                        </Route>
+                         <Route path="/locations">
+                          <Locations />
                         </Route>
                         <Route path="/">
                           <Home />
