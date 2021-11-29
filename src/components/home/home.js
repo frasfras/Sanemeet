@@ -274,13 +274,12 @@ class Home extends Component {
                                 <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Video challenge</button>
               
                                  <div id="demo" >
-                                  <iframe title="add2" class="airtable-embed" id="ftech-iframe-1794" src="https://ftech.azurewebsites.net/?post_type=contest&p=1794&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
+                                  <iframe title="add2" class="airtable-embed" id="ftech-iframe-1794" src="https://ftech-13f5c4.ingress-erytho.easywp.com/?post_type=contest&p=13&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe> 
          
                                                      
                                  </div>   
                                     
                                 <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo9"> Video challenge2 </button>
-                                <iframe title="add20" class="airtable-embed" id="ftech-iframe-13” src="https://ftech-13f5c4.ingress-erytho.easywp.com/?post_type=contest&p=13&embed=1"  style={{background: "transparent", border: "1px solid #ccc", frameborder:"0",  width:"100%", height:"633px"}}></iframe>
                                
                                 <div className="trinity_tab_content_description">
                                       <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo11">Fitness challenge</button>
