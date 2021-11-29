@@ -268,7 +268,7 @@ class Home extends Component {
                               <div className="trinity_tab_content_head">
                                   <h2 className="title">Challenges  List</h2>
                                   <ul>
-                                    <li>TO DO</li>
+                                    <li></li>
                                   </ul>
                                 </div>
                                 <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Video challenge</button>
@@ -279,7 +279,7 @@ class Home extends Component {
                                                      
                                  </div>   
                                     
-                                |<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo9"> Video challenge2 </button>
+                               
                                
                                 <div className="trinity_tab_content_description">
                                       <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo11">Fitness challenge</button>
@@ -315,7 +315,7 @@ class Home extends Component {
                                 </div>
                                  <div className="trinity_tab_content_btn" >
                               
-                                  <a href="https://airtable.com/embed/shrQkud5hw6DjwHgo">Sign up</a>
+                                  <a href="https://airtable.com/embed/shrv5CuyIbeMwy4sf">Sign up</a>
                                 </div>
                             </div>
                             <div className="col-md-4">
