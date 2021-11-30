@@ -1,7 +1,6 @@
 import React, {Component} from "react";
-import Navbar from "../register/navbar";
 import Airtable from 'airtable';
-import axios from "axios";
+
 import { randomInt } from "d3";
 
 const base= new Airtable({apiKey:"keyjVpG4zXCD49VfC" }).base('appvxmHGlX1aYf4iK');
@@ -71,9 +70,9 @@ componentDidMount() {
             <td>{post.fields.Name}</td>
             <td>{post.fields.Notes}</td>
             <td style={{width: '400px'}}>
-              <a href="#demo" data-toggle="collapse" onClick={console.log('hello')} class="btn btn-success">Details</a>
+              <a href="#demo8" data-toggle="collapse" onClick={console.log('hello')} class="btn btn-success">Details</a>
             
-              <div id="demo" class="collapse">
+              <div id="demo8" class="collapse">
                 {post.fields.Notes}
               </div>
              
@@ -88,7 +87,7 @@ componentDidMount() {
  renderNavbar = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">Challenge monitoring</a>
+      <a className="navbar-brand" href="/">Challenge monitoring</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -173,7 +172,7 @@ componentDidMount() {
         <div className="col-lg-8 ">
           <div className="card">
             <div classNmae="card-body">
-              <span className="card-headers"><h5></h5></span>
+              <span className="card-headers"></span>
              {this.renderNotes()}
             </div>
            
