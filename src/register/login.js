@@ -38,8 +38,12 @@ class Login extends Component  {
   
          let url = "http://localhost/tracker/api/login.php";
         axios({
-          method: 'post',
-          url: url,
+          method: 'get',
+          url: 'https://api.airtable.com/v0/appvxmHGlX1aYf4iK/Logim/reczAqoj9LIunZVVo',
+          headers: { 
+            'Authorization': 'Bearer keyjVpG4zXCD49VfC', 
+            'Cookie': 'brw=brw6uw5JONlHiRf6V'
+          },
           data: formData
         })
         .then((response) => {
@@ -50,7 +54,7 @@ class Login extends Component  {
             {
              //   alert('welcome ');
                
-                window.location.href = '/dashboard';
+                window.location.href = '/dash';
               }
           console.log(response);
         });
@@ -80,6 +84,7 @@ class Login extends Component  {
                 <div className="form-group">
                     <label htmlFor="exampleInputPassword1">Password</label>
                     <input type="password" className="form-control" id="password" onChange={e => this.onEmail(e,"password")} placeholder="Password"/>
+                     <label htmlFor="exampleInputPassword1">demo Login: test Password: 1111</label>
                 </div>
             
                 <button type="submit" className="btn btn-success" onClick={() => {this.handleLogin()}} >Submit</button>
