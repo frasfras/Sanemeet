@@ -36,7 +36,7 @@ class Login extends Component  {
         formData.append("email", user.email);
         formData.append("password", user.password);
   
-         let url = "http://localhost/tracker/api/login.php";
+        
         axios({
           method: 'get',
           url: 'https://api.airtable.com/v0/appvxmHGlX1aYf4iK/Logim/reczAqoj9LIunZVVo',
