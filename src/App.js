@@ -30,11 +30,12 @@ import { useKillZombies } from './useKillZombies';
 import './App.css';
 
 import Home from "./components/home/home";
-import Register from "./register/register";
+
 import Login from  "./register/login";
 import Participant from "./components/participants";
 import Locations from "./components/locations";
 import Dashboard from "./components/dashboard";
+import Navbar from "./register/navbar";
 
 function App ()  {
 
@@ -355,7 +356,7 @@ function App ()  {
                           renders the first one that matches the current URL. */}
                       <Switch>
                         <Route path="/register">
-                          <Register />
+                          <Navbar />
                         <br/>  {view}
                         </Route>
                         <Route path="/login">
