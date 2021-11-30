@@ -34,6 +34,7 @@ import Register from "./register/register";
 import Login from  "./register/login";
 import Participant from "./components/participants";
 import Locations from "./components/locations";
+import Dashboard from "./components/dashboard";
 
 function App ()  {
 
@@ -371,6 +372,9 @@ function App ()  {
                         </Route>
                          <Route path="/locations">
                           <Locations />
+                        </Route>
+                        <Route path="/dash">
+                           <Dashboard />
                         </Route>
                         <Route path="/">
                           <Home />
