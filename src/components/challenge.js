@@ -3,7 +3,7 @@ import Airtable from 'airtable';
 
 
 
-const base= new Airtable({apiKey:"keyjVpG4zXCD49VfC" }).base('appvxmHGlX1aYf4iK');
+const base= new Airtable({apiKey:"keyj" }).base('appvxmHGlX1aYf4iK');
 
 export default class Challenge extends Component {
  
